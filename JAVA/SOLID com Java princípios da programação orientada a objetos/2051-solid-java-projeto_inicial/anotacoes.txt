@@ -1,0 +1,24 @@
+Acoplamento: Classes acopladas causam fragilidade no codigo da aplicação, o que dificulta sua manutenção
+
+** É fato que, se estamos organizando o nosso código, seguindo as recomendações da orientação a objetos, 
+algum acoplamento acontecerá. Algumas classes precisarão de outras, para que não tenham muitas 
+responsabilidades. Cabe a nós medir quando faz sentido adicionar tal acoplamento com as dependências 
+e como depender do que é seguro, ao invés de classes concretas. Falaremos mais sobre isso neste treinamento.
+
+Encapsulament: Classes não encapsuladas permitem violação das regras de nogocio, alem de aumentarem o acoplamento.
+
+Single Responsability Principle: "Uma classe deveria ter apenas um unico motivo para mudar"
+
+A Lei de Demeter (LoD) ou princípio do menor conhecimento
+
+Open Closed Principle: "Entiedades de software(classes, módulos, funções, etc) devem estar abertas para extnsão, porem fechadas para modificação
+
+Likov Substitution Principle: Se q(x) é uma propriedade demostravel dos objetos x de tipo 
+T, então q(y) deve ser verdadeiro para objetos y de tipo S, onde S é um subtipo de T
+
+Dependency Inversion Principle : Abstracoes não devem depender de implementacoes, implementacoes devem depender de abstracoes
+
+Interface Segregation: Uma classe não deveria ser a forçaca a depender de metodos que não utilizara
+
+
+**uma interface pode herdar de outra interface
